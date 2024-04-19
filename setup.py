@@ -20,7 +20,7 @@ def get_requiremet(file_path:str)->List[str]:
 
 __version__ = "0.0.8"
 REPO_NAME = "mongodb_connector_package"
-PKG_NAME= "databaseautomation"
+PKG_NAME= "databaseautomationmongodb_connector"
 AUTHOR_USER_NAME = "vallirajasekar"
 AUTHOR_EMAIL = "sekarvalliraja@gmail.com"
 
