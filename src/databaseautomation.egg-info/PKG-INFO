@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: databaseautomation
-Version: 0.0.4
+Version: 0.0.5
 Summary: A python package for connecting with database.
 Home-page: https://github.com/vallirajasekar/mongodbconnectorpkg
 Author: vallirajasekar
