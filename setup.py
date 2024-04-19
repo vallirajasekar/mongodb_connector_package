@@ -18,7 +18,7 @@ def get_requiremet(file_path:str)->List[str]:
     return requirements  
    
 
-__version__ = "0.0.7"
+__version__ = "0.0.8"
 REPO_NAME = "mongodb_connector_package"
 PKG_NAME= "databaseautomation"
 AUTHOR_USER_NAME = "vallirajasekar"
