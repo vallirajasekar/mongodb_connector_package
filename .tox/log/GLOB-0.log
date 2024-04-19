@@ -1,0 +1,65 @@
+action: GLOB, msg: packaging
+cwd: /Users/vallirajasekar/Desktop/ml-ops/Python Packages
+cmd: /opt/homebrew/opt/python@3.11/bin/python3.11 setup.py sdist --formats=zip --dist-dir .tox/dist
+/opt/homebrew/lib/python3.11/site-packages/setuptools/dist.py:472: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'MongoDB-Connect' will not be supported in future
+        versions. Please use the underscore name 'MongoDB_Connect' instead.
+
+        By 2024-Sep-26, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+/opt/homebrew/lib/python3.11/site-packages/setuptools/_distutils/dist.py:265: UserWarning: Unknown distribution option: 'long_description_content'
+  warnings.warn(msg)
+running sdist
+running egg_info
+writing src/databaseautomation.egg-info/PKG-INFO
+writing dependency_links to src/databaseautomation.egg-info/dependency_links.txt
+writing requirements to src/databaseautomation.egg-info/requires.txt
+writing top-level names to src/databaseautomation.egg-info/top_level.txt
+reading manifest file 'src/databaseautomation.egg-info/SOURCES.txt'
+writing manifest file 'src/databaseautomation.egg-info/SOURCES.txt'
+running check
+creating databaseautomation-0.0.5
+creating databaseautomation-0.0.5/src
+creating databaseautomation-0.0.5/src/database_automation
+creating databaseautomation-0.0.5/src/databaseautomation.egg-info
+copying files to databaseautomation-0.0.5...
+copying README.md -> databaseautomation-0.0.5
+copying pyproject.toml -> databaseautomation-0.0.5
+copying setup.cfg -> databaseautomation-0.0.5
+copying setup.py -> databaseautomation-0.0.5
+copying src/database_automation/__init__.py -> databaseautomation-0.0.5/src/database_automation
+copying src/database_automation/mongo_crud.py -> databaseautomation-0.0.5/src/database_automation
+copying src/databaseautomation.egg-info/PKG-INFO -> databaseautomation-0.0.5/src/databaseautomation.egg-info
+copying src/databaseautomation.egg-info/SOURCES.txt -> databaseautomation-0.0.5/src/databaseautomation.egg-info
+copying src/databaseautomation.egg-info/dependency_links.txt -> databaseautomation-0.0.5/src/databaseautomation.egg-info
+copying src/databaseautomation.egg-info/requires.txt -> databaseautomation-0.0.5/src/databaseautomation.egg-info
+copying src/databaseautomation.egg-info/top_level.txt -> databaseautomation-0.0.5/src/databaseautomation.egg-info
+copying src/databaseautomation.egg-info/SOURCES.txt -> databaseautomation-0.0.5/src/databaseautomation.egg-info
+Writing databaseautomation-0.0.5/setup.cfg
+creating '.tox/dist/databaseautomation-0.0.5.zip' and adding 'databaseautomation-0.0.5' to it
+adding 'databaseautomation-0.0.5'
+adding 'databaseautomation-0.0.5/src'
+adding 'databaseautomation-0.0.5/PKG-INFO'
+adding 'databaseautomation-0.0.5/pyproject.toml'
+adding 'databaseautomation-0.0.5/README.md'
+adding 'databaseautomation-0.0.5/setup.py'
+adding 'databaseautomation-0.0.5/setup.cfg'
+adding 'databaseautomation-0.0.5/src/database_automation'
+adding 'databaseautomation-0.0.5/src/databaseautomation.egg-info'
+adding 'databaseautomation-0.0.5/src/database_automation/mongo_crud.py'
+adding 'databaseautomation-0.0.5/src/database_automation/__init__.py'
+adding 'databaseautomation-0.0.5/src/databaseautomation.egg-info/PKG-INFO'
+adding 'databaseautomation-0.0.5/src/databaseautomation.egg-info/SOURCES.txt'
+adding 'databaseautomation-0.0.5/src/databaseautomation.egg-info/requires.txt'
+adding 'databaseautomation-0.0.5/src/databaseautomation.egg-info/top_level.txt'
+adding 'databaseautomation-0.0.5/src/databaseautomation.egg-info/dependency_links.txt'
+removing 'databaseautomation-0.0.5' (and everything under it)
